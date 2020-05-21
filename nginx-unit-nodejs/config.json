@@ -1,0 +1,18 @@
+{
+    "listeners": {
+        "127.0.0.1:8080": {
+            "pass": "applications/express_app"
+        },
+        "10.4.170.187:8080": {
+            "pass": "applications/express_app" 
+        }
+    },
+
+    "applications": {
+        "express_app": {
+            "type": "external",
+            "working_directory": "/root/nginx-unit-nodejs/",
+            "executable": "app.js"
+        }
+    }
+}

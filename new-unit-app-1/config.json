@@ -1,0 +1,18 @@
+{
+    "listeners": {
+        "127.0.0.1:8081": {
+            "pass": "applications/express_app"
+        },
+        "192.168.145.162:8081": {
+            "pass": "applications/express_app"
+        },
+    },
+
+    "applications": {
+        "express_app": {
+            "type": "external",
+            "working_directory": "/var/www/new-unit-app-1/",
+            "executable": "app.js"
+        }
+    }
+}
