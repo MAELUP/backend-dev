@@ -3,17 +3,10 @@
         "127.0.0.1:8080": {
             "pass": "applications/express_app"
         },
-        "10.4.170.187:8080": {
-            "pass": "applications/express_app"
-        },
         "127.0.0.1:8081": {
             "pass": "applications/express_app_2"
         },
-        "10.4.170.187:8081": {
-            "pass": "applications/express_app_2"
-        },
     },
-
     "applications": {
         "express_app": {
             "type": "external",
